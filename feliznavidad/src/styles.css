@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    background: rgb(9, 9, 21);
+  }
+
+  canvas {
+    width: 100%;
+    cursor: crosshair;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    
+  }
+  
+  canvas:active {
+    cursor: crosshair;
+  }
+  
+  /* Full Screen Handlers */
+  
+  :-webkit-full-screen {
+      background: rgb(9, 9, 21);
+    }
+    
+    :-moz-full-screen {
+      background: rgb(9, 9, 21);
+    }
+    
+    :-ms-fullscreen {
+      background: rgb(9, 9, 21);
+    }
+    
+    :full-screen { /*pre-spec */
+      background: rgb(9, 9, 21);
+    }
+    
+    :fullscreen { /* spec */
+      background: rgb(9, 9, 21);
+    }

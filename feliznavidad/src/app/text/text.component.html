@@ -1,0 +1,24 @@
+<div id="canvas-container"></div>
+<div class="text-animation">
+  <div class="happy">Happy</div>
+  <div class="new-year">New Year</div>
+  <div class="twothousandeighteen">2018</div>
+</div>
+
+<div class="greetingContainer" style="display:none" [hidden]="!animationDone">
+  <div class="body-text-container">
+    <div class="header-text">Happy New Year</div>
+    <div class="subheading-text">2018</div>
+    <div class="body-text">
+      {{selectedMessage}}
+    </div>
+    <div class="footer-text" *ngIf="hasUsername">
+      <small>Best Wishes</small>
+      <br/>{{userName}}
+    </div>
+    <div class="footer-text" *ngIf="!hasUsername">
+      <small>Keep Smiling :)</small>
+    </div>
+  </div>
+</div>
+<app-minisalbuttons class="btn-container" *ngIf="animationDone && isCustomButton"></app-minisalbuttons>

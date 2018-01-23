@@ -1,0 +1,115 @@
+.creator-container {
+  padding: 10px;
+  color: #fff;
+}
+
+.header-text {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 2em;
+  font-weight: 100;
+  padding: 10px;
+}
+
+.form-container {
+  margin: 0px auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.your-name-container {
+  margin: 0px auto;
+  width: 94%;
+}
+
+.your-name {
+  width: 99%;
+  font-size: 1.5em;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  height: 50px;
+}
+
+.selector-head {
+  padding: 10px;
+  font-size: 1em;
+  font-family: Roboto;
+  width: 90%;
+  margin: 10px auto -6px;
+  color: #ff9d00;
+  font-weight: 400;
+}
+
+.theme-selector-head {
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: Roboto;
+  width: 90%;
+  margin: 10px auto -6px;
+}
+
+.checkbox-message-container {
+  width: 90%;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0px auto 10px;
+  color: #fff;
+  background-color: #486ec7;
+  font-family: 'Neucha';
+}
+
+.theme-message-container {
+  width: 95%;
+  margin: 0px auto 10px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-message-container img {
+  border-radius: 5px;
+  border: 3px solid #6f6f6f;
+  margin-left: 10px;
+}
+
+.theme-message-container img {
+  width: 92%;
+}
+
+.message-selector {
+  color: #fff;
+}
+
+.theme-selector {
+  color: #fff;
+}
+
+.preview-container button {
+  background-color: #ff6000;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 5px;
+  color: #fff;
+  border: 3px solid #ff973c;
+}
+
+.preview-container button:disabled {
+    background-color: #585858b3;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    color: #fff;
+    border: 3px solid #8888887d;
+  }
+
+.preview-container {
+    position: fixed;
+    bottom: 2%;
+    left: 20%;
+    width: 64%;
+    z-index: 100;
+}

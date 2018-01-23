@@ -1,0 +1,6 @@
+<app-video [isCustomButton]="false"></app-video>
+<div class="preview-container">
+  <input type="text" value="{{sharableUrl}}" #link>
+  <button type="submit" class="btnWhatsapp" (click) = "onShareClick()">Share</button>
+  <button type="submit" class="btnCopyUrl" [ngxClipboard]="link">Copy Link</button>
+</div>

@@ -1,0 +1,88 @@
+<div class="creator-container">
+  <div class="header-text">Create and Share</div>
+  <div class="form-container">
+    <form #custFormData="ngForm" (ngSubmit)="onCustomFormSubmit(custFormData)">
+      <div class="selector-head">1. Enter your name</div>
+      <div class="your-name-container">
+        <input name="userName" ngModel class="your-name" id="name" ngModel required>
+      </div>
+      <div class="message-selector">
+        <div class="selector-head">2. Select a Message</div>
+        <div class="checkbox-message-container">
+          <input type="radio" name="messageRadio" id="msg1" value="0" checked="checked" ngModel required>
+          <label for="msg1">
+            May you always be surrounded by hope and guided by the stars. Have a prosperous New Year!
+          </label>
+        </div>
+        <div class="checkbox-message-container">
+          <input type="radio" name="messageRadio" id="msg2" value="1" ngModel required>
+          <label for="msg2">
+              Cheers to a better life and a bright future. Have a prosperous New Year!
+          </label>
+        </div>
+        <div class="checkbox-message-container">
+          <input type="radio" name="messageRadio" id="msg4" value="2" ngModel required>
+          <label for="msg4">
+              Roses are red, violets are blue, it’s party time, happy New Year to you!
+          </label>
+        </div>
+        <div class="checkbox-message-container">
+          <input type="radio" name="messageRadio" id="msg5" value="3" ngModel required>
+          <label for="msg5">
+              May your New Year arrive with hope and a bag full of blessings. Have a prosperous and healthy New Year!
+          </label>
+        </div>
+        <div class="checkbox-message-container">
+            <input type="radio" name="messageRadio" id="msg6" value="4" ngModel required>
+            <label for="msg6">
+                May this New Year give you the courage to face a new horizon. Have a blessed New Year!
+            </label>
+          </div>
+          <div class="checkbox-message-container">
+              <input type="radio" name="messageRadio" id="msg7" value="5" ngModel required>
+              <label for="msg7">
+                May each day of the New Year be filled with contentment, opportunities, peace and abundance. Happy New Year!
+              </label>
+            </div>
+      </div>
+      <div class="theme-selector">
+        <div class="selector-head">3. Select yout theme</div>
+
+        <div class="theme-message-container">
+          <input type="radio" name="themeRadio" id="bg1" value="0" checked ngModel required>
+          <label for="bg1">
+            <img src="../assets/posters/Partynight.jpg">
+          </label>
+        </div>
+        <div class="theme-message-container">
+          <input type="radio" name="themeRadio" id="bg2" value="1" ngModel required>
+          <label for="bg2">
+            <img src="../assets/posters/Holidaylights.jpg">
+          </label>
+        </div>
+        <div class="theme-message-container">
+          <input type="radio" name="themeRadio" id="bg3" value="2" ngModel required>
+          <label for="bg3">
+            <img src="../assets/posters/Onfire.jpg">
+          </label>
+        </div>
+        <div class="theme-message-container">
+          <input type="radio" name="themeRadio" id="bg4" value="3" ngModel required>
+          <label for="bg4">
+            <img src="../assets/posters/Palmtrees.jpg">
+          </label>
+        </div>
+        <div class="theme-message-container">
+          <input type="radio" name="themeRadio" id="bg5" value="4" ngModel required>
+          <label for="bg5">
+            <img src="../assets/posters/Tulips.jpg">
+          </label>
+        </div>
+      </div>
+      <div class="preview-container">
+        <button type="submit" class="btnPreview" [disabled]="!custFormData.valid">Preview &amp; Share</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer-container"></div>
+</div>

@@ -1,0 +1,81 @@
+.body-text-container {
+  color: #fff;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  width: 100%;
+  background-image: url("../../assets/img/fireworks.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px auto;
+}
+
+.header-text {
+  font-size: 3em;
+  font-family: 'Neucha', 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+}
+
+.subheading-text {
+  font-size: 9em;
+  font-family: 'Neucha', 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffef00;
+}
+
+.body-text {
+  width: 70%;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 2em;
+  font-family: 'Rochester', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-text {
+  width: 70%;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 1.3em;
+  font-weight: 100;
+  font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 20px;
+}
+
+.text-animation {
+  position: fixed;
+  width: 100%;
+  top: 43%;
+  font-family: 'Monoton', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.happy {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  display: none;
+}
+
+.new-year {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  /* font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-weight: 100;
+  display: none;
+}
+
+.twothousandeighteen {
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  /* font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-weight: 100;
+  display: none;
+}
+
+.btn-container {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+}

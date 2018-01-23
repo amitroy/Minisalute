@@ -1,0 +1,167 @@
+.parent-container {
+  background-color: #000;
+}
+
+.app-text-container {
+  /* position: fixed;
+    top: 0%; */
+  width: 100%;
+}
+
+.video-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -99;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+  width: auto;
+  height: 1024px;
+  background-image: url(../../assets/img/dots.png);
+  background-size: 30px;
+  background-repeat: repeat;
+  background-color: #0623563d;
+}
+
+.container-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: 1024px;
+  z-index: -100;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  /* background: url('../assets/posters/Onfire.jpg') no-repeat; */
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+
+.container-img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  z-index: -100;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  /* background: url('../assets/posters/Onfire.jpg') no-repeat; */
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+
+.btn-container-puipui {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 26%;
+  margin-top: 0%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-container {
+  position: fixed;
+  width: 100%;
+  z-index: 990;
+  top: 30%;
+  margin-top: 0%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.circular-container {
+  width: 116px;
+  height: 144px;
+  margin: 0px auto;
+  padding: 30px;
+  border: 1px dashed #4979ff;
+  border-radius: 50%;
+}
+
+.position-container {
+  margin: 37px auto;
+}
+
+.lbl-instruction {
+  margin: 0px auto;
+  font-size: 1em;
+  color: #ffffffb5;
+  width: 100%;
+  font-weight: 100;
+}
+
+.btn-begin {
+  margin: 0px auto;
+  color: #ffffffb5;
+  font-size: 3em;
+  width: 100%;
+  font-weight: 100;
+}
+
+.puipui-clock {
+  width: 80px;
+  height: 150px;
+  border: 3px dotted #1f87af;
+  padding: 60px;
+  border-radius: 50%;
+  animation-name: spin-clock;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: 0px auto;
+  z-index: 100;
+  top: 30%;
+  text-align: center;
+}
+
+.puipui-anticlock {
+  width: 80px;
+  height: 150px;
+  border: 3px dotted #af1f1f;
+  padding: 60px;
+  border-radius: 50%;
+  animation-name: spin-anticlock;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: 0px auto;
+  z-index: 100;
+  top: 30%;
+  text-align: center;
+}
+
+@keyframes spin-clock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-anticlock {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

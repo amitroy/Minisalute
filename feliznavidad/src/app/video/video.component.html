@@ -1,0 +1,53 @@
+<app-text *ngIf="onbeginClick" class="app-text-container" [nameSrc]="selectedUserName" [textSrc]="selectedGreet" [isCustomButton]="isCustomButton"></app-text>
+<div class="parent-container">
+  <div class="video-container">
+    <div class="video-overlay" [hidden]="!onbeginClick"></div>
+    <div *ngIf="isChrome">
+      <video loop id="video-background" muted plays-inline class="container-video" [hidden]="!onbeginClick" *ngIf="selectedSrc === 0"
+        poster="../assets/videos/Partynight.gif">
+        <source src="../assets/videos/Partynight.mp4" type="video/mp4">
+      </video>
+      <video loop id="video-background" muted plays-inline class="container-video" [hidden]="!onbeginClick" *ngIf="selectedSrc === 1"
+        poster="../assets/videos/Holidaylights.gif">
+        <source src="../assets/videos/Holidaylights.mp4" type="video/mp4">
+      </video>
+      <video loop id="video-background" muted plays-inline class="container-video" [hidden]="!onbeginClick" *ngIf="selectedSrc === 2"
+        poster="../assets/videos/Onfire.gif">
+        <source src="../assets/videos/Onfire.mp4" type="video/mp4">
+      </video>
+      <video loop id="video-background" muted plays-inline class="container-video" [hidden]="!onbeginClick" *ngIf="selectedSrc === 3"
+        poster="../assets/videos/Palm_Trees.gif">
+        <source src="../assets/videos/Palm_Trees.mp4" type="video/mp4">
+      </video>
+      <video loop id="video-background" muted plays-inline class="container-video" [hidden]="!onbeginClick" *ngIf="selectedSrc === 4"
+        poster="../assets/videos/Tulips_are_Here.gif">
+        <source src="../assets/videos/Tulips_are_Here.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div *ngIf="!isChrome">
+      <img src="../assets/videos/Partynight.gif" class="container-img" [hidden]="!onbeginClick" *ngIf="selectedSrc === 0">
+      <img src="../assets/videos/Holidaylights.gif" class="container-img" [hidden]="!onbeginClick" *ngIf="selectedSrc === 1">
+      <img src="../assets/videos/Onfire.gif" class="container-img" [hidden]="!onbeginClick" *ngIf="selectedSrc === 2">
+      <img src="../assets/videos/Palm_Trees.gif" class="container-img" [hidden]="!onbeginClick" *ngIf="selectedSrc === 3">
+      <img src="../assets/videos/Tulips_are_Here.gif" class="container-img" [hidden]="!onbeginClick" *ngIf="selectedSrc === 4">
+    </div>
+
+  </div>
+
+  <div *ngIf="!onbeginClick">
+    <div class="btn-container-puipui">
+      <div class="puipui-clock"></div>
+    </div>
+    <div class="btn-container-puipui">
+      <div class="puipui-anticlock"></div>
+    </div>
+    <div class="btn-container">
+      <div class="circular-container" id="start-pause-button" (click)="onbeginClick=true">
+        <div class="position-container">
+          <div class="lbl-instruction">Tap here to</div>
+          <div class="btn-begin">Begin</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

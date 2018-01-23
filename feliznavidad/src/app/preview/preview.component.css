@@ -1,0 +1,58 @@
+.preview-container {
+  position: fixed;
+  bottom: 2%;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+}
+
+.preview-container input {
+  color: #fff;
+  font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #fff;
+  font-size: 16px;
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.preview-container button:active {
+    background-color: rgb(255, 167, 51);
+  }
+
+.btnWhatsapp {
+  background-color: #3baf2f;
+  width: 30%;
+  height: 43px;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 5px;
+  color: #fff;
+  border: 0px solid #ffffff;
+  background-image: url(../../assets/img/Whatsapplogo.png);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position-x: 10%;
+  margin-left: 0px;
+}
+
+.btnCopyUrl {
+  background-color: #37acff;
+  width: 64%;
+  height: 43px;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 5px;
+  color: #fff;
+  border: 0px solid #ffffff;
+  background-position-y: center;
+  background-size: 40px;
+  margin-left: 0px;
+}
