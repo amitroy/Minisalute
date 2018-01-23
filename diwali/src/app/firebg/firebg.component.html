@@ -1,0 +1,35 @@
+<div class="container">
+  <div id="canvas-container"></div>
+  <div class="wishboxcontainer">
+    <div class="wishbox">
+      <div id="rotate">
+        <div id="{{activeHeaderColor}}">Happy Diwali</div>
+        <div id="{{activeHeaderColor}}">शुभ दीपावली</div>
+      </div>
+      <div class="minsaldiag">
+      {{activeDialogue}}
+      </div>
+      <div class="minsalimg">
+        <img src="./assets/img/{{activeIconImage}}" />
+      </div>
+      <div *ngIf="signatureEnabled">
+        <div class="minsalsig">
+          Best Wishes,
+        </div>
+        <div class="minsalname">
+          {{activeUser}}
+        </div>
+      </div>
+    </div>
+    <div class="minsalbtnpair">
+      <button onclick="launchFullscreen(document.documentElement);" class="minsalbutton">Launch Fullscreen</button>
+      <button onclick="exitFullscreen();" class="minsalbutton">Hide Fullscreen</button>      
+    </div>
+    <form action="/c">
+      <button class="minsalbutton">Customize Your Own Greeting</button>
+    </form>
+  </div>
+  <div id="minsalbotbg">
+    <img src="./assets/img/1bg.png" />
+  </div>
+</div>

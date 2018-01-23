@@ -1,0 +1,240 @@
+.operationcontainers {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 3;
+  margin: 50px auto;
+  position: absolute;
+}
+
+#heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 10px auto 20px;
+  padding: 20px;
+  line-height: 50px;
+}
+
+#minsalbotbg {
+  position: fixed;
+  z-index: 2;
+  bottom: -5px;
+  margin: 0px auto 0px;
+  width: 100%;
+}
+
+#minsalbotbg img {
+  width: 100%;
+  height: 80%;
+}
+
+.fromfield {
+  width: 80%;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.coloroptionbox {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.minsaldiag {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 20px;
+  width: 300px;
+  margin: 10px auto 0px;
+}
+
+.minsalimg img {
+  height: 120px;
+  opacity: 0.8;
+}
+
+.minsalsig {
+  font-family: 'Roboto', sans-serif;
+}
+
+.minsalname {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  line-height: 25px;
+  color: #999;
+}
+
+.messageoptionsbox {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+fieldset {
+  border: 1px dashed #3e3e3e;
+  border: 1px solid rgb(109, 109, 109);
+  margin-top: 10px
+}
+
+.coloroptionbox fieldset label {
+  padding: 10px;
+  margin: 3px;
+  text-align: left;
+  color: #424242;
+  width: 80%;
+  font-size: 0.9em;
+}
+
+.messageoptionsbox fieldset label {
+  padding: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 80%;
+  font-size: 0.9em;
+  margin-top: 8px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  background: #e0e0e0;
+}
+
+.iconoptionsbox {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.iconoptionsbox fieldset label {
+  padding: 12px;
+  text-align: center;
+  width: 80%;
+  font-size: 0.9em;
+  margin-top: 8px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  background: #000000;
+}
+
+.iconoptionsbox img {
+  height: 120px;
+}
+
+
+/* Button Color Scheme */
+
+#default {
+  background: #ffa600;
+}
+
+#uniquered {
+  background: #ff002b;
+}
+
+#brightblue {
+  background: #00d8ff;
+}
+
+#sunnyyellow {
+  background: #f7ff00;
+}
+
+
+/* Buttons */
+
+.createbtnpair {
+  padding: 10px;
+}
+
+.createbtn {
+  padding: 10px;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.452);
+  width: 50%;
+  margin: 5px;
+  font-size: 1.2em;
+}
+
+.createbtn:hover {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(31, 64, 252);
+  border-radius: 4px;
+  background-color: rgb(0, 119, 255);
+  cursor: pointer;
+  opacity: 1;
+}
+
+.createbtn:focus {
+  padding: 10px;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: rgba(37, 39, 117, 0);
+  opacity: 0.5;
+}
+
+.hidden {
+  display: none;
+}
+
+.shareurlcontainer {
+  margin: 10px auto 0px;
+}
+
+.shareurl {
+  width: 70%;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  display: none;
+}
+
+
+/* Buttons */
+
+#btnCreate {
+  background-color: #4b2883;
+  color: #fff;
+}
+
+#btnTest {
+  background-color: #e92c2c;
+  color: #fff;
+  display: none;
+}
+
+#btnShare {
+  background-color: #269739;
+  color: #fff;
+  display: none;
+  padding: 12px
+}
+
+#sharebuttoncontainer{
+  display: none;
+}
+.whatsappsharebutton {
+  width: 50%;
+  margin: 0px auto 0px;
+  margin-top: 15px;
+  background: rgb(60, 194, 39);
+  border-radius: 5px;
+  height: 50px;
+  background-image: url('/assets/img/whatsapplogo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 1.2em;
+  line-height: 50px;
+  border: 3px solid #52a330;
+  color: #ffffff;
+}
